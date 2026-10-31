@@ -6,9 +6,30 @@ Everything here was written by reading the [`Nadjeet/nadjet`](https://github.com
 
 > **Status:** Nadjet is a proof of concept. It runs on simulated cameras from video files. No latency, accuracy or false-alarm results have been recorded yet, and the national design is a proposal. See [Status and limits](Overview/03-status-and-limits.md).
 
-## Start here
+## At a glance
+
+### Today: the proof of concept
+
+Simulated cameras feed one rented NVIDIA GPU, which simulates one edge node and runs detection and AI verification. One VPS runs coordination, data, routing, video and the web app. A person verifies every alert before dispatch, and alerts reach the field by SMS and Web Push.
 
 ![Nadjet PoC system overview](Assets/diagrams/tech-overview-poc.png)
+
+### Target: national production (proposed, not built)
+
+Each wilaya gets a local AI server, so video stays on site and only alerts and evidence travel. Sites use dual-path links, the core runs in two Algerian data centres on a closed State network, and public services sit in a separated zone. Green pills mark parts that already exist in the PoC. Legal and partner approvals come first. See [Production target](Architecture/09-production-target.md).
+
+![Nadjet production overview](Assets/diagrams/tech-overview-production.png)
+
+### Also covered
+
+| Topic | Where |
+|---|---|
+| Roads without cameras, and the remaining gaps | [Coverage model](Architecture/07-coverage-model.md) |
+| Links, protocols and failover | [Transport and connectivity](Architecture/06-transport-and-connectivity.md) |
+| What runs on which hardware | [Hardware and software](Architecture/08-hardware-and-software.md) |
+| What is built, unproven or limited | [Status and limits](Overview/03-status-and-limits.md) |
+
+## Start here
 
 | You are | Read this |
 |---|---|
