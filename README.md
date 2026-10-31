@@ -40,6 +40,7 @@ Each wilaya gets a local AI server, so video stays on site and only alerts and e
 | A frontend developer | [Front-end](Front-end/00-README.md) |
 | Running or deploying it | [Operations](Operations/00-README.md) |
 | Asking why it was built this way | [Decisions](Decisions/00-README.md) |
+| Checking the research and sources | [Research](Research/00-README.md) |
 | Evaluating national deployment | [Production target](Architecture/09-production-target.md) |
 
 ## Map of this repository
@@ -53,6 +54,7 @@ Each wilaya gets a local AI server, so video stays on site and only alerts and e
 | [Front-end](Front-end/00-README.md) | User surfaces, routes and web architecture |
 | [Operations](Operations/00-README.md) | Local setup, environment variables, deployment, testing and CI |
 | [Decisions](Decisions/00-README.md) | Index of technical decisions |
+| [Research](Research/00-README.md) | Thematic analysis, Algeria research, product scope and AI feasibility |
 | [Assets](Assets/diagrams/) | Diagrams used in these pages |
 
 ## Source repository map
